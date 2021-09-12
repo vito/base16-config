@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -e -u -x
+
+go install github.com/belak/base16-builder-go@latest
+
+base16-builder-go update \
+  --templates-source https://github.com/vito/base16-templates-source
