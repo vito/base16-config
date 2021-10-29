@@ -2,6 +2,4 @@
 
 set -e -u -x
 
-go install github.com/belak/base16-builder-go@latest
-
-base16-builder-go build
+pybase16 build -o templates "$@"

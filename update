@@ -2,8 +2,4 @@
 
 set -e -u -x
 
-go install github.com/belak/base16-builder-go@latest
-
-base16-builder-go update \
-  --schemes-source https://github.com/vito/base16-schemes-source \
-  --templates-source https://github.com/vito/base16-templates-source
+pybase16 update -c -v
