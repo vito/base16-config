@@ -1,3 +1,5 @@
 /templates/
 /schemes/
 /sources/
+.direnv
+_build
